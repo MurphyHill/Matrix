@@ -10,6 +10,11 @@ class Example
         var index = r.Next(symbols.Length);
         return symbols[index];
     }
+
+    static void ShowChar()
+    {
+        Console.WriteLine(GetRandomChar());
+    }
     public static void Main()
     {
         Console.ForegroundColor = ConsoleColor.Green;
